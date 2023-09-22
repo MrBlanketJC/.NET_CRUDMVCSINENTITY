@@ -1,0 +1,9 @@
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\bin\Debug\CAD.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\bin\Debug\CAD.pdb
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\bin\Debug\CAE.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\bin\Debug\CAE.pdb
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\obj\Debug\CAD.csproj.AssemblyReference.cache
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\obj\Debug\CAD.csproj.CoreCompileInputs.cache
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\obj\Debug\CAD.csproj.CopyComplete
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\obj\Debug\CAD.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAD\obj\Debug\CAD.pdb

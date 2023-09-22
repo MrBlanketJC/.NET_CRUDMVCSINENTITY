@@ -1,0 +1,11 @@
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\bin\Debug\CAM.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\bin\Debug\CAM.pdb
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\bin\Debug\CAD.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\bin\Debug\CAE.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\bin\Debug\CAD.pdb
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\bin\Debug\CAE.pdb
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\obj\Debug\CAM.csproj.AssemblyReference.cache
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\obj\Debug\CAM.csproj.CoreCompileInputs.cache
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\obj\Debug\CAM.csproj.CopyComplete
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\obj\Debug\CAM.dll
+D:\Developments\VS\2022\.NET_CRUDMVCSINENTITY\CRUDMVC\CAM\obj\Debug\CAM.pdb

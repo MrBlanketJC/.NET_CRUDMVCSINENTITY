@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Employees";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Empleados</h1>
+        <p class="lead">Ajax CRUD MVC Application - Realizado sin Entity framework, DB SQLServer2014 y VS 2022</p>
+    </section>
+    <div class="container">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-success" onclick="clearTextBox();" data-bs-toggle="modal" data-bs-target="#employeeModal"><i class="bi bi-person-plus-fill"></i> Nuevo</button>
+        </div>
+        <!--Table-->
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">IDEmpleado</th>
+                        <th scope="col">Apellidos</th>
+                        <th scope="col">Nombres</th>
+                        <th scope="col">Telefono</th>
+                        <th scope="col">Correo</th>
+                        <th scope="col">Pais</th>
+                        <th scope="col">Provincia</th>
+                        <th scope="col">Canton</th>
+                        <th scope="col">Direccion</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    <!--Aqui se cargaran los datos, hacia la clase .tbody desde employee.js con ajax-->
+                </tbody>
+            </table>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="employeeModal" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="employeeModalLabel">Empleados</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3" style="display:none">
+                                <label for="IDEmpleado" class="col-form-label">ID:</label>
+                                <input type="text" class="form-control" id="IDEmpleado" placeholder="Id" disabled="disabled" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Apellidos" class="col-form-label">Apellidos: *</label>
+                                <input type="text" class="form-control" id="Apellidos" placeholder="Apellidos" value="Jaramillo" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Nombres">Nombres: *</label>
+                                <input type="text" class="form-control" id="Nombres" placeholder="Nombres" value="Julio" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Telefono">Telefono: *</label>
+                                <input type="text" class="form-control" id="Telefono" placeholder="0995538762" value="023657895" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Correo">Correo: *</label>
+                                <input type="text" class="form-control" id="Correo" placeholder="correo@domain.com" value="jjaramillo@correo.com" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Pais">Pais: *</label>
+                                <input type="text" class="form-control" id="Pais" placeholder="Ecuador" value="Ecuador" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Provincia">Provincia: *</label>
+                                <input type="text" class="form-control" id="Provincia" placeholder="Guayas" value="Pichincha" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Canton">Canton: *</label>
+                                <input type="text" class="form-control" id="Canton" placeholder="Guayaquil" value="Quito" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Direccion">Direccion: *</label>
+                                <input type="text" class="form-control" id="Direccion" placeholder="Av. Pedro vicente N5" value="Av. Maldonado N75" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i> Cerrar</button>
+                        <button type="button" class="btn btn-warning" id="btnUpdate" onclick="return Update();" style="display:none;"><i class="bi bi-pencil"></i> Editar</button>
+                        <button type="button" class="btn btn-success" id="btnAdd" onclick="return Add();"><i class="bi bi-person-plus-fill"></i> Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
